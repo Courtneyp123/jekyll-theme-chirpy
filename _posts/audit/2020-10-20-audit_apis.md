@@ -1,6 +1,6 @@
 ---
 title: About Audit APIs
-categories: [Audit Api]
+categories: [Components, Audit]
 ---
 
 Hygieia audit APIs are a collection of API endpoints that serve to audit CI/CD data gathered by Hygieia collectors. The collectors create a large amount of information that provides insights in to the quality of code that goes into production.

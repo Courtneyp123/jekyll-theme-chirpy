@@ -1,6 +1,6 @@
 ---
 title: Architecture Overview
-categories: [Architecture]
+categories: [Database and Architecture, Architecture]
 ---
 This diagram offers you the full view of Hygieia from an architectural vantage point.
 
