@@ -4,27 +4,32 @@
 #  © 2020 Cotes Chung
 #  MIT Licensed
 
-
 -
   name: Home
   icon: "fas fa-home"
+-
+  name: About
+  icon: "fas fa-info"
+  path: tabs
+  url: about
 -
   name: Categories
   icon: "fas fa-stream"
   path: tabs
   url: categories
 -
-  name: "Tags"
-  icon: "fas fa-tags"
-  path: tabs
-  url: tags
--
-  name: "Archives"
-  path: tabs
-  url: archives
-  icon: "fas fa-archive"
--
-  name: "About"
+  name: New Hygieia UI
   icon: "fas fa-info"
   path: tabs
-  url: about
+  url: newUI
+-
+  name: Old Hygieia UI
+  icon: "fas fa-info"
+  path: tabs
+  url: oldUI
+-
+  name: Collectors
+  icon: "fas fa-info"
+  path: tabs
+  url: collectors
+

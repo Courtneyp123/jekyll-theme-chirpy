@@ -1,9 +1,5 @@
 <!--
   The Side Bar
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 
 <div id="nav-wrapper">
@@ -15,16 +11,16 @@
         {% if start == '/' %}
           {% assign avatar_url = avatar_url | prepend: site.baseurl %}
         {% endif %}
-        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
+        <img src="/assets/img/sample/avatar.png" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
     <div class="profile-text mt-3">
       <div class="site-title">
-        <a href="{{ '/' | relative_url }}">{{- site.title -}}</a>
+        <a href="{{ '/' | relative_url }}">Hygieia</a>
       </div>
-      <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
     </div>
+  <br>
   </div>
 
   <ul class="nav flex-column">
@@ -67,16 +63,7 @@
   {% for entry in site.data.contact %}
     {% capture url %}
       {%- if entry.type == 'github' -%}
-        https://github.com/{{ site.github.username }}
-      {%- elsif entry.type == 'twitter' -%}
-        https://twitter.com/{{ site.twitter.username }}
-      {%- elsif entry.type == 'email' -%}
-        {% assign email = site.social.email | split: '@' %}
-        javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-      {%- elsif entry.type == 'rss' -%}
-        {{ "/feed.xml" | relative_url }}
-      {%- else -%}
-        {{ entry.url }}
+        https://github.com/Hygieia
       {%- endif -%}
     {% endcapture %}
 
