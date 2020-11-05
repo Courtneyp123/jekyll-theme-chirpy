@@ -32,4 +32,9 @@
   icon: "fas fa-info"
   path: tabs
   url: collectors
+-
+  name: Contribute
+  icon: "fas fa-info"
+  path: tabs
+  url: contribution
 
