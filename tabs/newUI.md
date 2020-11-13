@@ -1,7 +1,6 @@
 ---
 title: New UI Setup Instructions
-categories: [New Hygieia UI]
-tags: [newUI]
+categories: [Setup Hygieia UI]
 # The New UI Setup Page
 ---
 ## What changes have we made to the UI? 
@@ -25,3 +24,9 @@ Please visit the bottom of the new Hygieia UI [**README**](https://github.com/Hy
 For information about the latest changes regarding the new UI, please visit our [**UI Progress wiki page**](https://github.com/Hygieia/UI/wiki/UI-Progress).
 
 A list of available UI features are also updated on the page.   
+
+## Depreciated UI Setup 
+
+For information on setting up our original UI (depreciated), please visit the [**Original UI Setup Instructions**](/posts/oldUI/).  
+
+The Github page for the Original UI could be found [**here**](https://github.com/Hygieia/Hygieia/blob/gh-pages/pages/hygieia/UI/ui.md). 

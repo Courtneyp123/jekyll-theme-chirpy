@@ -18,15 +18,10 @@
   path: tabs
   url: categories
 -
-  name: New Hygieia UI
+  name: Setup Hygieia UI
   icon: "fas fa-info"
   path: tabs
   url: newUI
--
-  name: Old Hygieia UI
-  icon: "fas fa-info"
-  path: tabs
-  url: oldUI
 -
   name: Collectors
   icon: "fas fa-info"
